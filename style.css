@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.header{
+    background-color: #bb7525;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px, 0;
+}
+
+.header h1{
+    font-size: 6em;
+}
+
+.header p{
+    font-size: 1.5em;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box{
+    background-color: #b8712e;
+    padding: 20px;
+    width: 60%;
+    margin: 10px;
+}
+
+.box h2{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.box p::selection{
+    background-color: #f7690a;
+    color: #ffffff;
+}
+
+.footer{
+    background-color: #c4722f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.parallax1{
+    background-image: url(https://img.freepik.com/fotos-gratis/paisagem-de-praia-do-havai-com-vista-para-o-oceano_23-2151794940.jpg?t=st=1729192428~exp=1729196028~hmac=108a5bbf3e5d34c17edd81538d55d1281af625e7583d90703a62f34a8465245d&w=900);
+}
+
+.parallax2{
+    background-image: url(https://img.freepik.com/fotos-premium/o-por-do-sol-sobre-o-oceano-com-uma-escada-de-madeira_980225-24116.jpg?w=900);
+}
+
+.parallax3{
+    background-image: url(https://img.freepik.com/fotos-gratis/vista-fotorrealista-de-arvore-na-natureza-com-galhos-e-tronco_23-2151478033.jpg?t=st=1729192618~exp=1729196218~hmac=5f67ff974867287649046c149a2ee2111c64427793682f776877678d5b61b7fe&w=1060);
+}
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
